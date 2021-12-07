@@ -3,7 +3,7 @@ Spring REST Learning Project.
 Create a REST Server that will use a list of students and show  one or all via endpoints in JSON format.
 
 About the project:  
-Maven project with java config.
+Maven project with java config.  
 Two branches    
 
    - Second. Crate a java class for Student ; create a REST SERVICE that will return  JASON endpoints  
@@ -23,10 +23,11 @@ Learning notes:
 To crate a java object form a JSON file we create the java class with suitable fields and use JAKSON to do the binding.  
 If we do not need all JSON fields we add @JsonIgnoreProperties(ignoreUnknown=true) on java class.
 
-A @RestController annotated class (ex: StudentRestController.java) has methods @GetMapping, @PostMapping, etc and return JSON endpoints instead of page views like in @Controller.
 
 Rest API Naming conventions for endpoint: plural of the main resource/entity : 	/api/customers  
-Don’t include actions in the endpoint, instead use http methods to assign actions(ex: Get, POST, PUT, DELETE) - ex: /api/customersList = wrong ; /api/customers = good  
+  
+Don’t include actions in the endpoint, instead use http methods to assign actions(ex: Get, POST, PUT, DELETE) - ex: /api/customersList = wrong ; /api/customers = good    
+  
 Http method for Database action:  Post-CREATE, Get-READ, Put-UPDATE, Delete-DELETE
 
 @PathVariable:  	public Student getStudent(@PathVariable int studentId)  
