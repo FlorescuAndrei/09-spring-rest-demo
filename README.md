@@ -39,7 +39,21 @@ Http method for Database action:  Post-CREATE, Get-READ, Put-UPDATE, Delete-DELE
 Error management:   
   - Error class,  simple java POJO that will be returns as  JSON  response in case of error;  
   - Exception class,   
-  - Exception Handler class(bind exception with error)
+  - Exception Handler class(bind exception with error)  
+
+
+
+   1 JSON Data Binding with Jackson:
+				-add java config two classes.
+				- create DemoRestController
+				- run as java application
+
+	2 REST Controller  -pom.xml: add dependency: sping-webmvc, javax.servlet-api
+				- create package :com.andrei.jakson.json.demo with three classes Employee.java, Adress.java, Driver.java 
+				- pom.xml: only need jackson-databind dependency . No Spring .
+				- run on server
+	3 Spring REST Service – Students
+			- pom.xml : javax.annotation-api (for @PostConstruct)  
 
 [BACK TO START PAGE](https://github.com/FlorescuAndrei/Start.git) 
 
