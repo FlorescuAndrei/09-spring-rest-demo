@@ -43,14 +43,17 @@ Error management:
 
 
 
-   1 JSON Data Binding with Jackson:
-				-add java config two classes.
-				- create DemoRestController
+   Building steps: 
+   
+   	1 JSON Data Binding with Jackson:
+
+				- create package :com.andrei.jakson.json.demo with three classes Employee.java, Adress.java, Driver.java 
+				- pom.xml: only need jackson-databind dependency . No Spring .
 				- run as java application
 
 	2 REST Controller  -pom.xml: add dependency: sping-webmvc, javax.servlet-api
-				- create package :com.andrei.jakson.json.demo with three classes Employee.java, Adress.java, Driver.java 
-				- pom.xml: only need jackson-databind dependency . No Spring .
+				- add java config classes.
+				- create DemoRestController
 				- run on server
 	3 Spring REST Service – Students
 			- pom.xml : javax.annotation-api (for @PostConstruct)  
