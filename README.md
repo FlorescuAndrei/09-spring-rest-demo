@@ -28,7 +28,7 @@ Rest API Naming conventions for endpoint: plural of the main resource/entity : 	
   
 Don’t include actions in the endpoint, instead use http methods to assign actions(ex: GET, POST, PUT, DELETE) - ex: /api/customersList = wrong ; /api/customers = good    
   
-Http method for Database action:  POST-CREATE, GET-READ, PUT-UPDATE, DELETE-DELETE
+Http method for Database action:  POST - CREATE, GET - READ, PUT - UPDATE, DELETE - DELETE
 
 @PathVariable:  	public Student getStudent(@PathVariable int studentId)  
    -   retrieve path variable value from url
