@@ -47,7 +47,7 @@ Error management:
    
    	1 JSON Data Binding with Jackson:
 
-				- create package :com.andrei.jakson.json.demo with three classes Employee.java, Adress.java, Driver.java 
+				- create package :com.andrei.jakson.json.demo with three classes Employee.java, Address.java, Driver.java 
 				- pom.xml: only need jackson-databind dependency . No Spring .
 				- run as java application
 
