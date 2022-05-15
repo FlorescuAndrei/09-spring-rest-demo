@@ -56,7 +56,7 @@ Error management:
 				- create DemoRestController
 				- run on server
 	3 Spring REST Service – Students
-			- create Student.java StudentRestController and error handling classes.
+			- create Student.java, StudentRestController and error handling classes.
 			- pom.xml : javax.annotation-api (for @PostConstruct)  
 
 [BACK TO START PAGE](https://github.com/FlorescuAndrei/Start.git) 
